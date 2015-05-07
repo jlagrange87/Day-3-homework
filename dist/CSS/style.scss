@@ -1,3 +1,6 @@
+$whitetext: white;
+
+
 .imgsizing {
 	max-height: 100%;
 	max-width: 100%;
@@ -7,7 +10,6 @@
 	max-width: 55%;
 	max-height:55%;
 	margin:14px;
-
 }
 .header {
 	height: 45px;
@@ -30,10 +32,9 @@
 	float:left;
 	margin-top: 6px;
 	background-color: #008CBC;
-
 }
 .wordptop{ 
-	color: #FFFFFF;
+	color: $whitetext ;
 	float: left;
 	text-align: center;
 	background-color: #008CBC;
@@ -69,6 +70,32 @@
 .sub1 {
 	height: 190px;
 	background:#E8F0F5;
+
+	.subtext1 {
+		text-align: center;
+		color: #304154;
+		font-size: 24px;
+		margin-top: 0px;
+		margin-bottom: 12px;
+		padding-top: 20px;}
+			.subtext2 {
+				text-align: center;
+				color: #304154;
+				font-size: 24px;
+				margin-top: 0px;
+				margin-bottom: 12px;}
+				.subtext3 {
+					text-align: center;
+					color: #304154;
+					font-size: 24px;
+					margin-top: 0px;
+					margin-bottom: 12px;}
+						.subtext4 {
+							text-align: center;
+							color: #304154;
+							font-size: 24px;
+							margin-top: 0px;
+							margin-bottom: 12px;}
 }
 .subtext1 {
 	text-align: center;
@@ -76,34 +103,48 @@
 	font-size: 24px;
 	margin-top: 0px;
 	margin-bottom: 12px;
-	padding-top: 20px;
-}
-.subtext2 {
-	text-align: center;
-	color: #304154;
-	font-size: 24px;
-	margin-top: 0px;
-	margin-bottom: 12px;
-}
-.subtext3 {
-	text-align: center;
-	color: #304154;
-	font-size: 24px;
-	margin-top: 0px;
-	margin-bottom: 12px;
-}
-.subtext4 {
-	text-align: center;
-	color: #304154;
-	font-size: 24px;
-	margin-top: 0px;
-	margin-bottom: 12px;
-}
+	padding-top: 20px;}
+
 .backg {
 	height: 1560px;
 	background:#D1D3D7;
 	padding-top: 35px;
-}
+
+		.foreg1 {
+		margin: 0px 10px 32px;
+		background: #FFFFFF;
+		height: 195px;
+		padding-top: 20px;}
+			.foreg2 {
+				margin: 0px 10px 32px;
+				background: #FFFFFF;
+				height: 195px;
+				padding-top: 20px;} 
+					.foreg5 {
+						margin: 0px 10px 32px;
+						background: $whitetext;
+						height: 195px;
+						padding-top: 20px;}
+
+
+
+		.foreg3 {
+			margin: 0px 10px 32px;
+			background: $whitetext;
+			height: 220px;
+			padding-top: 20px;}
+				.foreg4 {
+					margin: 0px 10px 32px;
+					background: $whitetext;
+					height: 220px;
+					padding-top: 20px;}
+					.foreg6 {
+						margin: 0px 10px 32px;
+						background: $whitetext;
+						height: 220px;
+						padding-top: 20px;}
+
+	}
 .whitebmain {
 	height: 70px;
 	background:#E8F0F5;
@@ -122,27 +163,52 @@
 	background:#000000;
 	padding-top: 35px;
 	padding-bottom: 45px;
+		
+		.linkmargin {
+			margin-left: 10%;
+			margin-right: 10%; 
+			text-align: center;}
+
+				.abtus1 {
+				color: white;
+				text-align: center;
+				font-size: 12px;
+				margin-left: 5px;
+				word-spacing: 5px; }
+
+						.abtus {
+					    color: white;
+					    text-align: center;
+					    font-size: 12px;
+					    margin-left: 10px;
+					    word-spacing: 5px; }
+
+							    .abtusb {
+							    color: white;
+							    text-align: center;
+							    font-size: 12px;
+						 	    margin-left: 10px; }
 }
 .create {
 	font-size: 35px;
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	padding-top:170px;
 }
 .ffree {
 	font-size: 35px;
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 }
 .wpbusi1 {
 	font-size: 16px;
 	margin-top: 40px;
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 }
 .wpbusi2 {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 }
 .blueboxmain {
@@ -172,32 +238,26 @@
 	margin: 215px auto 0px;
 	height: 20px;
 	width: 50px;
-/*	background: #FFFFFF;
-*/
 }
 .whitbox1 {
 	margin: 135px auto 0px;
-/*	background: #32404D;	
-*/	height: 70px;
+	height: 70px;
 	width: 300px
 }
 .whitbox2-3 {
-	margin: 30px auto 0px;
-/*	background: #32404D;	
-*/	height: 70px;
+	margin: 30px auto 0px;	
+	height: 70px;
 	width: 300px;
 }
 .graysmall {	
 	height: 60px;
 	width: 50px;
-/*	background: white;
-*/	margin-top: 10px;
+	margin-top: 10px;
 	float:left;
 }
 .graybig {
 	height: 55px;
-/*	background: #32404D;
-*/	width: 235px;
+	width: 235px;
 	float:left;
 	margin-bottom: 10px;
 	margin-left: 10px;
@@ -207,49 +267,11 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 20px	;
-/*	background-color:#32404D;
-*/}
+}
 .smallready {
 	color: #D5D6D7;
-/*	background-color:#32404D;
-*/	margin-top: 10px;
+	margin-top: 10px;
 	font-size:14px;
-}
-.foreg1 {
-	margin: 0px 10px 32px;
-	background: #FFFFFF;
-	height: 195px;
-	padding-top: 20px;
-}
-.foreg2 {
-	margin: 0px 10px 32px;
-	background: #FFFFFF;
-	height: 195px;
-	padding-top: 20px;
-}
-.foreg3 {
-	margin: 0px 10px 32px;
-	background: #FFFFFF;
-	height: 220px;
-	padding-top: 20px;
-}
-.foreg4 {
-	margin: 0px 10px 32px;
-	background: #FFFFFF;
-	height: 220px;
-	padding-top: 20px;
-}
-.foreg5 {
-	margin: 0px 10px 32px;
-	background: #FFFFFF;
-	height: 195px;
-	padding-top: 20px;
-}
-.foreg6 {
-	margin: 0px 10px 32px;
-	background: #FFFFFF;
-	height: 220px;
-	padding-top: 20px;
 }
 .foresq{
 	background: #C6D2D8;
@@ -259,8 +281,7 @@
 	border-radius: 50%/50%;
 }
 .foresmlrec {
-/*	background: white;
-*/	margin: 10px auto 0px;
+	margin: 10px auto 0px;
 	height: 25px;
 	width: 410px;
 }
@@ -270,8 +291,7 @@
 	font-size: 20px;
 }
 .forelrgrec {
-/*	background: white;
-*/	margin: 20px auto 0px;
+	margin: 20px auto 0px;
 	height: 50px;
 	width: 410px;
 }
@@ -288,7 +308,7 @@
 }
 .whitbluetext {
 	font-size: 23px;
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	padding-top: 11px;
 }
@@ -300,32 +320,32 @@
 	background: #000000;
 }
 .bottomlinks1 {
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	font-size: 12px;
 	word-spacing: 10px;
 }
 .bottomlinks2 {
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	font-size: 12px;
 }
 .abtus1 {
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	font-size: 12px;
 	margin-left: 5px;
 	word-spacing: 5px;
 }
 .abtus {
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	font-size: 12px;
 	margin-left: 10px;
-	word-spacing: 5px
+	word-spacing: 5px;
 }
 .abtusb {
-	color: #FFFFFF;
+	color: $whitetext;
 	text-align: center;
 	font-size: 12px;
 	margin-left: 10px;

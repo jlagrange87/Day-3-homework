@@ -31,7 +31,7 @@
   background-color: #008CBC; }
 
 .wordptop {
-  color: #FFFFFF;
+  color: white;
   float: left;
   text-align: center;
   background-color: #008CBC;
@@ -65,6 +65,31 @@
 .sub1 {
   height: 190px;
   background: #E8F0F5; }
+  .sub1 .subtext1 {
+    text-align: center;
+    color: #304154;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-top: 20px; }
+  .sub1 .subtext2 {
+    text-align: center;
+    color: #304154;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 12px; }
+  .sub1 .subtext3 {
+    text-align: center;
+    color: #304154;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 12px; }
+  .sub1 .subtext4 {
+    text-align: center;
+    color: #304154;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 12px; }
 
 .subtext1 {
   text-align: center;
@@ -74,31 +99,40 @@
   margin-bottom: 12px;
   padding-top: 20px; }
 
-.subtext2 {
-  text-align: center;
-  color: #304154;
-  font-size: 24px;
-  margin-top: 0px;
-  margin-bottom: 12px; }
-
-.subtext3 {
-  text-align: center;
-  color: #304154;
-  font-size: 24px;
-  margin-top: 0px;
-  margin-bottom: 12px; }
-
-.subtext4 {
-  text-align: center;
-  color: #304154;
-  font-size: 24px;
-  margin-top: 0px;
-  margin-bottom: 12px; }
-
 .backg {
   height: 1560px;
   background: #D1D3D7;
   padding-top: 35px; }
+  .backg .foreg1 {
+    margin: 0px 10px 32px;
+    background: #FFFFFF;
+    height: 195px;
+    padding-top: 20px; }
+  .backg .foreg2 {
+    margin: 0px 10px 32px;
+    background: #FFFFFF;
+    height: 195px;
+    padding-top: 20px; }
+  .backg .foreg5 {
+    margin: 0px 10px 32px;
+    background: white;
+    height: 195px;
+    padding-top: 20px; }
+  .backg .foreg3 {
+    margin: 0px 10px 32px;
+    background: white;
+    height: 220px;
+    padding-top: 20px; }
+  .backg .foreg4 {
+    margin: 0px 10px 32px;
+    background: white;
+    height: 220px;
+    padding-top: 20px; }
+  .backg .foreg6 {
+    margin: 0px 10px 32px;
+    background: white;
+    height: 220px;
+    padding-top: 20px; }
 
 .whitebmain {
   height: 70px;
@@ -118,27 +152,48 @@
   background: #000000;
   padding-top: 35px;
   padding-bottom: 45px; }
+  .bottombox .linkmargin {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center; }
+  .bottombox .abtus1 {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 5px;
+    word-spacing: 5px; }
+  .bottombox .abtus {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    word-spacing: 5px; }
+  .bottombox .abtusb {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px; }
 
 .create {
   font-size: 35px;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   padding-top: 170px; }
 
 .ffree {
   font-size: 35px;
-  color: #FFFFFF;
+  color: white;
   text-align: center; }
 
 .wpbusi1 {
   font-size: 16px;
   margin-top: 40px;
-  color: #FFFFFF;
+  color: white;
   text-align: center; }
 
 .wpbusi2 {
   font-size: 16px;
-  color: #FFFFFF;
+  color: white;
   text-align: center; }
 
 .blueboxmain {
@@ -167,36 +222,26 @@
 .tinygray {
   margin: 215px auto 0px;
   height: 20px;
-  width: 50px;
-  /*	background: #FFFFFF;
-*/ }
+  width: 50px; }
 
 .whitbox1 {
   margin: 135px auto 0px;
-  /*	background: #32404D;	
-*/
   height: 70px;
   width: 300px; }
 
 .whitbox2-3 {
   margin: 30px auto 0px;
-  /*	background: #32404D;	
-*/
   height: 70px;
   width: 300px; }
 
 .graysmall {
   height: 60px;
   width: 50px;
-  /*	background: white;
-*/
   margin-top: 10px;
   float: left; }
 
 .graybig {
   height: 55px;
-  /*	background: #32404D;
-*/
   width: 235px;
   float: left;
   margin-bottom: 10px;
@@ -206,52 +251,12 @@
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
-  /*	background-color:#32404D;
-*/ }
+  font-size: 20px; }
 
 .smallready {
   color: #D5D6D7;
-  /*	background-color:#32404D;
-*/
   margin-top: 10px;
   font-size: 14px; }
-
-.foreg1 {
-  margin: 0px 10px 32px;
-  background: #FFFFFF;
-  height: 195px;
-  padding-top: 20px; }
-
-.foreg2 {
-  margin: 0px 10px 32px;
-  background: #FFFFFF;
-  height: 195px;
-  padding-top: 20px; }
-
-.foreg3 {
-  margin: 0px 10px 32px;
-  background: #FFFFFF;
-  height: 220px;
-  padding-top: 20px; }
-
-.foreg4 {
-  margin: 0px 10px 32px;
-  background: #FFFFFF;
-  height: 220px;
-  padding-top: 20px; }
-
-.foreg5 {
-  margin: 0px 10px 32px;
-  background: #FFFFFF;
-  height: 195px;
-  padding-top: 20px; }
-
-.foreg6 {
-  margin: 0px 10px 32px;
-  background: #FFFFFF;
-  height: 220px;
-  padding-top: 20px; }
 
 .foresq {
   background: #C6D2D8;
@@ -261,8 +266,6 @@
   border-radius: 50%/50%; }
 
 .foresmlrec {
-  /*	background: white;
-*/
   margin: 10px auto 0px;
   height: 25px;
   width: 410px; }
@@ -273,8 +276,6 @@
   font-size: 20px; }
 
 .forelrgrec {
-  /*	background: white;
-*/
   margin: 20px auto 0px;
   height: 50px;
   width: 410px; }
@@ -292,7 +293,7 @@
 
 .whitbluetext {
   font-size: 23px;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   padding-top: 11px; }
 
@@ -304,32 +305,32 @@
   background: #000000; }
 
 .bottomlinks1 {
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   font-size: 12px;
   word-spacing: 10px; }
 
 .bottomlinks2 {
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   font-size: 12px; }
 
 .abtus1 {
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   font-size: 12px;
   margin-left: 5px;
   word-spacing: 5px; }
 
 .abtus {
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   font-size: 12px;
   margin-left: 10px;
   word-spacing: 5px; }
 
 .abtusb {
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   font-size: 12px;
   margin-left: 10px; }
